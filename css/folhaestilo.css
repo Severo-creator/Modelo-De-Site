@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-principal {
+  font-family: "verdana";
+  color: #777;
+}
+
+/*definir prorpiedades do topo*/
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  position: relative;
+  top: 0;
+}
+
+/*posição doa logo*/
+
+.logo {
+  position: absolute;
+  width: 100px;
+  height: auto;
+}
+
+.logo img {
+  width: 90%;
+  margin: 10%;
+}
+
+/* definir as propriedades do menu*/
+
+nav {
+  position: absolute;
+  right: 30px;
+  bottom: 0px;
+}
+
+nav ul li {
+  float: left;
+  color: #fff;
+  width: auto;
+  margin: 0.8em;
+  font-size: 1.5em;
+  font-family: "verdana";
+  list-style: none;
+}
+
+nav ul li {
+  text-decoration: none;
+  color: #bbb;
+}
+
+nav ul li a:hover {
+  color: #b13030;
+}
+
+/*definir as propriedades do banner*/
+
+#banner {
+  width: 100%;
+}
+#banner img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.modalDialog {
+  position: fixed;
+  font-family: "verdana";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(181, 9, 9, 0.8);
+  z-index: 9999;
+  opacity: 0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+  display: none;
+}
+
+.color-page {
+  background-color: #ddd;
+}
+
+.img-titulo {
+  width: 20%;
+  height: auto;
+  margin-bottom: 10%;
+  position: relative;
+  float: left;
+  margin-right: 5%;
+}
+
+.img-titulo img {
+  width: 90%;
+  margin-left: 10%;
+  margin-top: 50%;
+}
